@@ -1,0 +1,32 @@
+@media screen and (max-width:1000px) {
+    body{
+        background-color: cornsilk;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+        height: 30px;
+    }
+
+    .search{
+        justify-content: center;
+
+    }
+    .search input{
+        margin: 9px 14px;
+
+    }
+    .slider{
+        height: 25vh;
+    }
+
+    .card-item img{
+        width: 130px;
+    }
+}

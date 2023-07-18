@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+:root{
+    --main-bg-color:black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Zen Antique', serif;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    display: flex;
+    height: 55px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(8, 75, 19);
+    font-weight: bolder;
+}
+.container{
+    min-height: calc(100vh - 55px - 6vh);
+}
+
+.search{
+       display: flex; 
+       align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 56px;
+    padding: 0 12px ;
+}
+.search button{
+    font-family: 'Zen Antique', serif;
+    font-weight: 900;
+
+}
+.card{
+    max-width: 90vw;
+    margin: 37px auto;
+}
+.card h2{
+    font-family: 'Zen Antique', serif;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.cards{
+    display: flex;
+    overflow: auto;
+}
+.slider{    
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+footer{
+    height:6vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Zen Antique', serif;
+}
